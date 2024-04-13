@@ -24,9 +24,7 @@
    - Default output format [None]: json
 
 ## Start with Hello World:
-    ```bash
     sls create --template aws-nodejs-typescript --path folderName
-    ```
    - Two files will be generated: handler.js and serverless.yml
 
 ## Running lambda function locally
