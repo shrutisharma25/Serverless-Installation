@@ -17,22 +17,20 @@
      ```
 
 ## AWS configure
-   - AWS configure
+   - aws configure
    - AWS Access Key ID [None]: ACCESS_KEY
    - AWS Secret Access Key [None]: SECRET_ACCESS_KEY
    - Default region name [None]: REGION
    - Default output format [None]: json
 
 ## Start with Hello World:
-   - Command: serverless/sls create --template hello-world
+    ```bash
+    sls create --template aws-nodejs-typescript --path folderName
+    ```
    - Two files will be generated: handler.js and serverless.yml
 
 ## Running lambda function locally
   ### 1. Run inbuilt command provided by serverless --> serverless invoke local
-        ```bash
         sls invoke local --function functionName --data {"key":"value"}
-        ```
   ### 2. Use serverless offline plugin 
-        ```bash
         sls invoke local --function functionName --data {"key":"value"}
-        ```
