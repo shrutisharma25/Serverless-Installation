@@ -29,6 +29,10 @@
 
 ## Running lambda function locally
   ### 1. Run inbuilt command provided by serverless --> serverless invoke local
-      - sls invoke local --function functionName --data {"key":"value"}
-  ### 2. Use serverless offline plugin
-      - 
+        ```bash
+        sls invoke local --function functionName --data {"key":"value"}
+        ```
+  ### 2. Use serverless offline plugin 
+        ```bash
+        sls invoke local --function functionName --data {"key":"value"}
+        ```
