@@ -17,6 +17,11 @@
      ```
 
 ## AWS configure
+   - AWS configure
+   - AWS Access Key ID [None]: ACCESS_KEY
+   - AWS Secret Access Key [None]: SECRET_ACCESS_KEY
+   - Default region name [None]: REGION
+   - Default output format [None]: json
 
 ## Start with Hello World:
    - Command: serverless/sls create --template hello-world
